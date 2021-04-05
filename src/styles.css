@@ -1,0 +1,60 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --mainRed: hsl(0, 36%, 70%);
+    --softRed: hsl(0, 93%, 68%);
+    --greyRed: hsl(0, 6%, 24%);
+    --gradient: Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
+                Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)
+}
+
+
+body {
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+section {
+    padding: 50px 100px;
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-size: cover;
+}
+
+#logo img {
+    width: 30%;
+    margin: 20px 0;
+}
+
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    color: var(--mainRed);
+    font-size: 40px;
+    letter-spacing: 0.5em;
+    margin: 50px 0 20px 0;
+}
+
+strong {
+    font-weight: 600;
+    color: initial;
+}
+
+p { 
+    color: var(--mainRed);
+}
+
+
+
